@@ -304,7 +304,7 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To The Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=456934284566069248&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=554163150560296991&permissions=8&scope=bot')
   .setDescription(`**
   Someone Added Me ✅
 اسم السيرفر: ${guild.name}
@@ -316,7 +316,7 @@ client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To The Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=456934284566069248&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=554163150560296991&permissions=8&scope=bot')
   .setDescription(`**
   I Got Kicked :cry:
 اسم السيرفر: ${guild.name}
@@ -455,7 +455,7 @@ client.on('message', message => {
 
 
 client.on('message', function(message) {
-	const myID = "244888652004458497";
+	const myID = "545624279513825332";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
